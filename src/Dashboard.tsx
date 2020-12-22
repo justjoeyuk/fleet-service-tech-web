@@ -13,6 +13,7 @@ import styled from "styled-components";
 import { SecurityScanTwoTone } from '@ant-design/icons';
 import { Layout, Menu, Divider } from 'antd';
 import Devices from "./pages/Devices";
+
 const { Header, Content, Footer } = Layout;
 
 const NavigationHeader = styled(Header)`
@@ -27,7 +28,7 @@ const Logo = styled(SecurityScanTwoTone)`
 
 const PageContent = styled(Content)`
   min-height: calc(100vh - 64px - 70px);
-  padding: 20px 50px;
+  padding: 20px 44px;
 `
 
 export default function Dashboard() {
